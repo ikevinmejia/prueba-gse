@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Prueba GSE.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto solicitó consumir un API publica que genera perfiles aleatorios en la cual se solicitó mostrar en el front los datos consumidos; así mismo, generar una funcionalidad para agregar a favoritos, generar persistencia de datos y poder eliminar un elemento seleccionado como favorito.
 
-## Available Scripts
+Para dar solución al proyecto hubo varios retos que me complicó la finalidad del mismo, entre esos fue el tiempo, no obstante pude consumir el api, mostrar datos, crear una card básica para visualizar la información, un boton de favoritos y listar.
 
-In the project directory, you can run:
+Como problemas o retos de ejecución indico rapidamente que no pude realizar la persistencia de datos, no porque no supiera hacerlo, si no por el limite de tiempo ya que pensaba usar localStorage en sincronía con el useContext que da react para el envío y consumo de información. De igual manera, informo que al darle al boton de eliminar se me presentó un bug que de acuerdo a la limitancia de tiempo no pude solucionar. No obstante, solo faltó re renderizar la pagina para quitar la card que no contiene la información.
 
-### `npm start`
+En lo personal disfruté la prueba a realizar puesto que es dinamica para el nivel de desarrollo al perfil que busca la empresa. Quedo contento con el resultado aunque me haya faltado tiempo. Gracias por la paciencia y tiempo prestado para la realización de la prueba.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Comenzando 🚀
 
-### `npm test`
+Aplicación construida con CREATE REACT APP.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pre-requisitos 📋
 
-### `npm run build`
+Para adquirir el código fuente debe descargar los archivos o hacer un git clone.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Instalación 🔧
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Intalar paquetes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+```
 
-### `npm run eject`
+Ejecutar servidor de desarrollo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm run start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Despliegue 📦
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ejecutar el comando
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm run build
+```
 
-## Learn More
+## Construido con 🛠️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [REACT](https://es.reactjs.org/) - Librería web usado
+- [Tailwind](https://tailwindcss.com/) - Marco de trabajo CSS
+- [POSTCSS](https://postcss.org/) - Post procesador CSS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Versionado 📌
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Usamos [Git](https://git-scm.com/) para el versionado. Para todas las versiones disponibles.
 
-### Analyzing the Bundle Size
+## Autor ✒️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Kevin Mejia** - [ikevinmejia](https://github.com/ikevinmejia)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Licencia 📄
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto está bajo la Licencia MIT.
